@@ -13,45 +13,45 @@
       </caption>
       <thead>
         <tr>
-          <th>Feature</th>
-          <th>Basic</th>
-          <th>Standard</th>
-          <th>Premium</th>
+          <th scope="col">Feature</th>
+          <th scope="col">Basic</th>
+          <th scope="col">Standard</th>
+          <th scope="col">Premium</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th>AI Chatbot</th>
+          <th scope="row">AI Chatbot</th>
           <td>—</td>
           <td>✓</td>
           <td>✓</td>
         </tr>
         <tr>
-          <th>Lead Form</th>
+          <th scope="row">Lead Form</th>
           <td>✓</td>
           <td>✓</td>
           <td>✓</td>
         </tr>
         <tr>
-          <th>Google Sheets</th>
+          <th scope="row">Google Sheets</th>
           <td>—</td>
           <td>✓</td>
           <td>✓</td>
         </tr>
         <tr>
-          <th>Email Auto</th>
+          <th scope="row">Email Auto</th>
           <td>—</td>
           <td>—</td>
           <td>✓</td>
         </tr>
         <tr>
-          <th>Mobile Friendly</th>
+          <th scope="row">Mobile Friendly</th>
           <td>✓</td>
           <td>✓</td>
           <td>✓</td>
         </tr>
         <tr>
-          <th>Support</th>
+          <th scope="row">Support</th>
           <td>Email</td>
           <td>Chat</td>
           <td>24/7</td>
@@ -59,51 +59,12 @@
       </tbody>
       <tfoot>
         <tr>
-          <th>Best for</th>
-          <th>Starter</th>
-          <th>Growing</th>
-          <th>Scaling</th>
+          <th scope="col">Best for</th>
+          <th scope="col">Starter</th>
+          <th scope="col">Growing</th>
+          <th scope="col">Scaling</th>
         </tr>
       </tfoot>
     </table>
-    <label for="name"> Name</label>
-    <input type="text" id="name" name="name" required />
-    <label for="email">Email </label>
-    <input type="email" id="email" name="email" required />
-    <label for="tel"> telephone number</label>
-    <input type="tel" id="tel" name="tel" required placeholder="09XXXXXXXXX" />
-    <label for="age"> Age</label>
-    <input
-      type="number"
-      id="age"
-      name="age"
-      min="1"
-      max="100"
-      step="1"
-      required
-    />
-    <input type="checkbox" id="agree" name="agree" value="yes" />
-    <label for="agree"> I agree to be contacted</label>
-    <input type="radio" id="budget1" name="budget" value="budget5k" />
-    <label for="budget1">Below 5k</label>
-    <label for="message">Message</label>
-    <textarea
-      id="message"
-      name="message"
-      rows="4"
-      cols="50"
-      placeholder="Write your message here..."
-      required
-    ></textarea>
-    <label for="source">How did you find me?</label>
-    <select id="source" name="source">
-      <option value="" disabled selected>Select an option</option>
-      <option value="google">Google</option>
-      <option value="facebook">Facebook</option>
-      <option value="referral">Referral</option>
-      <option value="other">Other</option>
-    </select>
-    <button type="submit">Send Message</button>
-    <button type="reset">Reset</button>
   </body>
 </html>

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lead Capture Form</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="lead-capture.html">Lead Capture</a>
+        <a href="table-practice.html">Table Practice</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Lead Capture Form</h1>
+      <p>Please fill out the form below to get in touch with us.</p>
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="name">Full Name:</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            required
+            aria-required="true"
+            autocomplete="name"
+          />
+          <br />
+          <label for="email">Email:</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+            aria-required="true"
+            autocomplete="email"
+          />
+          <br />
+          <label for="phone">Phone:</label>
+          <br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="0XXXXXXXXXX"
+            required
+            aria-required="true"
+            autocomplete="tel"
+            aria-describedby="phone-hint"
+            minlength="11"
+            maxlength="11"
+          />
+          <br />
+          <small id="phone-hint">Format: 0XXXXXXXXXX (11 digits)</small>
+        </fieldset>
+        <fieldset>
+          <legend>Property Preferences</legend>
+          <label for="plan">Choose your budget:</label>
+          <br />
+          <select id="plan" name="plan" required>
+            <option value="">Select a budget</option>
+            <option value="budget">1K-10K</option>
+            <option value="standard">10K-50K</option>
+            <option value="premium">50K+</option>
+          </select>
+          <br />
+          <label for="property-type">Property Type:</label>
+          <br />
+          <input
+            type="radio"
+            id="house"
+            name="property-type"
+            value="house"
+            required
+          />
+          <label for="house">House</label>
+          <br />
+          <input
+            type="radio"
+            id="apartment"
+            name="property-type"
+            value="apartment"
+            required
+          />
+          <label for="apartment">Apartment</label>
+          <br />
+          <input
+            type="radio"
+            id="commercial"
+            name="property-type"
+            value="commercial"
+            required
+          />
+          <label for="commercial">Commercial</label>
+          <br />
+          <label for="source">How did you hear about us?</label>
+          <br />
+          <input
+            type="checkbox"
+            id="source1"
+            name="source"
+            value="social-media"
+          />
+          <label for="source1">Social Media</label>
+          <br />
+          <input type="checkbox" id="source2" name="source" value="friends" />
+          <label for="source2">Friends</label>
+          <br />
+          <input
+            type="checkbox"
+            id="source3"
+            name="source"
+            value="advertisement"
+          />
+          <label for="source3">Advertisement</label><br />
+          <label for="message">Additional Comments:</label>
+          <br />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            placeholder="Additional comments or questions..."
+          ></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </main>
+    <footer><p>&copy; 2026 Troy Jian. All rights reserved.</p></footer>
+  </body>
+</html>

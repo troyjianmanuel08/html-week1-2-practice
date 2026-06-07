@@ -1,0 +1,119 @@
+/* Reset — para consistent sa lahat ng browser */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  background-color: #ffffff;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #1a1a2e;
+  padding: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+/* Main container */
+main {
+  max-width: 800px;
+  margin: 48px auto;
+  padding: 24px;
+}
+
+/* Intro section */
+.intro {
+  background-color: #f8f9f8;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+/* Skills list */
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eeeeee;
+  color: #444444;
+}
+
+.skills-list li:last-child {
+  border-bottom: none;
+}
+
+/* Navigation */
+nav {
+  background-color: #1a1a2e;
+  padding: 16px 24px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #a0c4ff;
+}
+
+/* Headings */
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 24px;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #444444;
+}
+
+/* List */
+ul {
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid #eeeeee;
+  font-size: 14px;
+  color: #999999;
+}

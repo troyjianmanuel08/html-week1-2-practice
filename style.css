@@ -82,7 +82,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--color-bg);
+  color: #a0c4ff; /* lighter shade — or use a variable */
 }
 
 /* Headings */
@@ -117,6 +117,36 @@ ul {
 ul li {
   margin-bottom: 8px;
   line-height: 1.6;
+}
+
+button {
+  /* appearance */
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: none; /* removes the default browser border on buttons */
+  padding: 12px 24px; /* 12px top/bottom, 24px left/right */
+  border-radius: 6px; /* slightly rounded corners */
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer; /* changes mouse cursor to a hand when hovering */
+  /* transition goes HERE on the base rule */
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0f4a8a; /* darker shade of primary */
+  transform: translateY(-2px); /* lifts up 2 pixels */
+}
+
+button:active {
+  transform: translateY(0); /* snaps back to normal position when clicked */
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 /* Footer */

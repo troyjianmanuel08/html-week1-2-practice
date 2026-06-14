@@ -33,6 +33,12 @@ img {
   display: block;
 }
 
+iframe,
+video {
+  max-width: 100%;
+  display: block;
+}
+
 /* Headings */
 h1 {
   font-size: 2.25rem;
@@ -79,14 +85,6 @@ button {
   cursor: pointer; /* changes mouse cursor to a hand when hovering */
   /* transition goes HERE on the base rule */
   transition: all 0.3s ease;
-}
-
-/* Header */
-header {
-  background-color: var(--color-primary);
-  padding: 0;
-  margin-bottom: 0;
-  width: 100%;
 }
 
 /* BASE — mobile */
@@ -200,7 +198,6 @@ nav a {
   color: var(--color-bg);
   text-decoration: none;
   font-weight: 500;
-  margin-right: 0;
 }
 
 nav a:hover {

@@ -10,7 +10,7 @@ console.log(city);
 
 // Find the h1 and change its text
 const heading = document.querySelector("h1");
-heading.textContent = "Hi, I'm Troy — Web Developer";
+heading.textContent = "Hi, I'm Troy - Web Developer";
 
 // Find the back-to-top button and make it work
 const backBtn = document.querySelector(".back-to-top");

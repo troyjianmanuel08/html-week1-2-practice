@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Troy Jian - Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="lead-capture.html">Lead Capture</a>
+        <a href="lead-capture-v2.html">Lead Capture V2</a>
+        <a href="table-practice.html">Table Practice</a>
+      </nav>
+    </header>
+    <main>
+      <div class="intro">
+        <h1>Hi, i'm Troy Jian</h1>
+        <h2 class="section-title">Aspiring Web Developer</h2>
+        <p>
+          I'm learning web development during my gap year. I build clean,
+          functional websites for small businesses.
+        </p>
+        <p>Currently focused on HTML, CSS, and JavaScript fundamentals.</p>
+      </div>
+      <img src="beach.jpg" alt="Sandy Beach" />
+      <ul class="skills-list">
+        <li>HTML & Semantic Markup</li>
+        <li>CSS & Responsive Design</li>
+        <li>JavaScript Basics</li>
+        <li>Git & GitHub</li>
+        <li>Web Deployment</li>
+      </ul>
+      <figure>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/Kqpby3g30hA?si=ttO-3jLLgYX5UrX1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <figcaption>A video about my web development journey.</figcaption>
+      </figure>
+      <figure>
+        <video controls muted poster="https://picsum.photos/560/315">
+          <source src="meme.mp4" type="video/mp4" />
+        </video>
+        <figcaption>A funny meme about coding.</figcaption>
+      </figure>
+      <div class="cards">
+        <div class="card">
+          <h3>HTML</h3>
+          <p>Structure ng webpage</p>
+        </div>
+        <div class="card">
+          <h3>CSS</h3>
+          <p>Styling ng webpage</p>
+        </div>
+        <div class="card card--featured">
+          <span class="badge">NEW</span>
+          <h3>JavaScript</h3>
+          <p>Behavior ng webpage</p>
+        </div>
+      </div>
+      <div class="page-layout">
+        <div class="main-content">
+          <h3>Main Content Area</h3>
+          <p>
+            Ito ang pangunahing nilalaman ng page. Mas malawak ito kaysa sa
+            sidebar.
+          </p>
+        </div>
+        <div class="sidebar">
+          <h3>Sidebar</h3>
+          <p>Ito ang sidebar — mas makitid at nakadikit sa kanan.</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>© 2024 Troy Jian. All rights reserved.</p>
+    </footer>
+    <button
+      class="back-to-top"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+      ↑ Top
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>

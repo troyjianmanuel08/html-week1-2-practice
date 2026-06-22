@@ -6,7 +6,6 @@ const heading = document.querySelector("h1");
 const paragraph = document.querySelector("p");
 const introDiv = document.querySelector(".intro");
 const allCards = document.querySelectorAll(".card");
-const lastCard = document.querySelector(".cards .card:last-child");
 
 // Print to Console
 console.log(name);
@@ -44,6 +43,7 @@ newCard.innerHTML = "<h3>React</h3><p>Building modern UIs</p>";
 const cardsContainer = document.querySelector(".cards");
 cardsContainer.appendChild(newCard);
 
+const lastCard = document.querySelector(".cards .card:last-child");
 lastCard.addEventListener("click", function () {
   lastCard.remove();
 });

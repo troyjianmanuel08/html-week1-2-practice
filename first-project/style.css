@@ -248,7 +248,7 @@ footer {
   font-weight: 700;
 }
 
-.hightlight {
+.highlighted {
   background-color: var(--color-surface);
   border: 2px solid var(--color-primary);
   border-radius: 8px;
